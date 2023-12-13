@@ -20,7 +20,7 @@ int main()
     cout << "Введите строку s0:\n";
     getline(cin, str0);
 
-    if (str.find(str0, 0) != string::npos)
+    if (str.find(str0) != string::npos)
     {
         cout << "True";
     }
